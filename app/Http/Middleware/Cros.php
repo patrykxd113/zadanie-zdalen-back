@@ -18,7 +18,7 @@ class Cros
     {
         return $next($request)
                 ->header('Access-Control-Allow-Origin','*')
-                ->header('Access-Control-Allow-Methods','PUT,POST,DELATE,GET,OPTIONS')
+                ->header('Access-Control-Allow-Methods','PUT,POST,DELETE,GET,OPTIONS')
                 ->header('Access-Control-Allow-Haders','Accept,Authorization,Content-type');
     }
 }
