@@ -14,6 +14,6 @@ class TravelSeeder extends Seeder
      */
     public function run()
     {
-        Travel::factory()->count(3)->create();
+        Travel::factory()->count(7)->create();
     }
 }
